@@ -1,7 +1,7 @@
 # CCTV-Compression_yolov4_deepsort
 요약
 <br/>
-<p align="center"><img src="./img/Workflow.PNG"></p>
+<p align="center"><img src=".Tracker/img/Workflow.PNG"></p>
 
 ## 시작하기
 
