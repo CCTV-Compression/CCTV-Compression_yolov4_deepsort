@@ -63,26 +63,20 @@ python save_model.py
 python detect.py --weights ./checkpoints/yolov4-416 --image ./data/kite.jpg
 ```
 
-## 파일 설명
-#### 1) preprocessing.ipynb \& preprocessing_Ensemble.ipynb
+<br/>
 
-    빈 텍스트 제거, Stop word 제거, 품사 태깅
+## ADMM 기반 Weight Pruning
+- train 데이터는 YOLOv4와 동일
+- 파라미터 수정은 yolo_admm_pruning.py 내에서 진행(epoch, k_step, all_percent(제거 퍼센트) 등)
+- 각 알고리즘 스탭마다 최종 출력(가중치 제거된 weight 파일)은 ./checkpoints/admm_pruning/ 폴더 내에 존재(weight_prune, after_admm, retraining)
+- 예측은 YOLOv4 예측의 2) 파트로 진행
 
-#### 2) Sentence_classification.ipynb
+### Weight Pruning 훈련
+```
+python yolo_admm_pruning.py
+```
 
-    벡터화(Word2Vec, Doc2Vec, Fasttext) 및 분류 모델(LSTM, 1D-CNN, XGBoost) 생성
 
-#### 3) sentence_utility.py
-
-    1), 2)에 필요한 함수 구현
-
-#### 4) Associative_classification(TBM).ipynb
-
-    연관 분류 모델('Associative classification based on the Transferable Belief Model') 생성 
-
-#### 5) Predict.ipynb
-
-    생성된 모델들을 통해 적용 및 성능 평가
 
 ## 기여자
 
