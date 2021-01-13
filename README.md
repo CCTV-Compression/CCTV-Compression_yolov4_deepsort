@@ -5,6 +5,8 @@
 - ADMM 기반의 Weight Pruning 기법을 사용하여 객체 탐지 모델 경량화
 <p align="center"><img src="./Tracker/img/small_restarea_reduction_prune640.gif"></p>
 <br/>
+
+### 
 <p align="center"><img src="./Tracker/img/Workflow.PNG"></p>
 
 <br/>
