@@ -101,10 +101,15 @@ python object_tracker.py --video ./data/video/cars.mp4 --output ./outputs/demo1.
 
 ## 결과
 ### 기존 YOLOv4 weights 사용하여 추적(60초)
+
 <p align="center"><img src="./Tracker/img/small_demo_not_reduction_origin2.gif"></p>
+
 ### Weight Pruning(제거 비율: 20%) weights 사용하여 추적(60초)
+
 <p align="center"><img src="./Tracker/img/small_demo_not_reduction_prune2.gif"></p>
+
 ### 용량 축소 적용(45초)
+
 <p align="center"><img src="./Tracker/img/small_demo_reduction_prune2.gif"></p>
 
 <br/>
