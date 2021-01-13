@@ -10,7 +10,7 @@
 
 ### 선행 설치 조건
 
-CUDA Toolkit version은 10.1을 권장
+- CUDA Toolkit version은 10.1을 권장
 
 ```
 tensorflow-gpu==2.3.0rc0
@@ -49,12 +49,12 @@ python train.py
 
 
 ### YOLOv4 예측
-####1) 학습된 YOLOv4 weights 사용하여 예측
+#### 1) 학습된 YOLOv4 weights 사용하여 예측
 ```
 python save_model.py --weight_origin True
 python detect.py --weights ./checkpoints/yolov4-416 --image ./data/kite.jpg
 ```
-####2) 새로운 데이터로 학습시킨 weights를 사용하여 예측
+#### 2) 새로운 데이터로 학습시킨 weights를 사용하여 예측
 ```
 python save_model.py
 python detect.py --weights ./checkpoints/yolov4-416 --image ./data/kite.jpg
