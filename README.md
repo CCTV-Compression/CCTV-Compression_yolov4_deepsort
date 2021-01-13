@@ -110,7 +110,7 @@ python object_tracker.py --video ./data/video/cars.mp4 --output ./outputs/demo1.
 
 ### 용량 축소 적용(45초)
 
-<p align="center"><img src="./Tracker/img/small_demo_reduction_prune2.gif"></p>
+<p align="center"><img src="./Tracker/img/small_demo_reduction_prune2.gif" width="640" height="320"></p>
 
 <br/>
 
