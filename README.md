@@ -49,6 +49,16 @@ python train.py
 
 
 ### YOLOv4 예측
+####1) 학습된 YOLOv4 weights 사용하여 예측
+```
+python save_model.py --weight_origin True
+python detect.py --weights ./checkpoints/yolov4-416 --image ./data/kite.jpg
+```
+####2) 새로운 데이터로 학습시킨 weights를 사용하여 예측
+```
+python save_model.py
+python detect.py --weights ./checkpoints/yolov4-416 --image ./data/kite.jpg
+```
 
 ## 파일 설명
 #### 1) preprocessing.ipynb \& preprocessing_Ensemble.ipynb
