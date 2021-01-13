@@ -41,7 +41,7 @@ conda activate yolov4-gpu
 ## YOLOv4
 ### YOLOv4 훈련
 - 훈련 파라미터는 YOLOv4/core/config.py에서 수정
-- 데이터는 COCO dataset 기준으로 되어 있으므로 다른 데이터에 적용하기 위해서는 YOLOv4/data/dataset/val2017.txt 파일과 같이 수정 필요
+- 데이터는 COCO dataset 기준이며 다른 데이터에 적용하기 위해서는 YOLOv4/data/dataset/val2017.txt 파일과 같이 수정 필요
 - val2017.txt의 형태 : (이미지경로 x1,y1,x2,y2,class_label ...), class 정보는 YOLOv4/data/classes/ 경로에 위치(config.py에서 수정 필요)
 ```
 python train.py
