@@ -1,8 +1,8 @@
-# CCTV-Compression_yolov4_deepsort
-- yolov4를 사용하여 객체 탐지(Bounding box, Classification)
-- 탐지된 객체 정보를 통해 deepsort를 사용하여 원하는 객체의 정지 상태나 움직임을 식별
+# CCTV-Compression(YOLOv4 + Deepsort + Pruning)
+- YOLOv4를 사용하여 객체 탐지(Bounding box, Classification)
+- 탐지된 객체 정보를 통해 Deepsort를 사용하여 원하는 객체의 정지 상태나 움직임을 식별
 - 식별된 움직임 정보를 통해 움직임이 없는 상태를 제거하여 저장 용량 축소
-- ADMM 기반의 Weight Pruning 기법을 사용하여 객체 탐지 모델의 경량화
+- ADMM 기반의 Weight Pruning 기법을 사용하여 객체 탐지 모델 경량화
 <br/>
 <p align="center"><img src="./Tracker/img/Workflow.PNG"></p>
 
