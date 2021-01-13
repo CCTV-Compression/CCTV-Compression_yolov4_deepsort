@@ -35,8 +35,8 @@ conda activate yolov4-gpu
 ```
 
 ### 학습된 YOLOv4 weights 가져오기(COCO로 학습)
-https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT 에서 다운로드한 yolov4.weights 파일을 YOLOv4/data/ 경로에 추가
-직접 학습시키고자 할 경우 'YOLOv4 모델 훈련' 파트부터 실행
+- https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT 에서 다운로드한 yolov4.weights 파일을 YOLOv4/data/ 경로에 추가
+- 직접 학습시키고자 할 경우 'YOLOv4 모델 훈련' 파트부터 실행
 
 ## YOLOv4 모델 훈련
 
