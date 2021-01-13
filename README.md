@@ -35,11 +35,20 @@ conda activate yolov4-gpu
 ```
 
 ### 학습된 YOLOv4 weights 가져오기(COCO로 학습)
-- https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT 에서 다운로드한 yolov4.weights 파일을 YOLOv4/data/ 경로에 추가
-- 직접 학습시키고자 할 경우 'YOLOv4 모델 훈련' 파트부터 실행
+- https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT 에서 다운로드한 파일을 YOLOv4/data/ 경로에 추가
+- 직접 학습시키고자 할 경우 'YOLOv4 훈련' 파트부터 실행
 
-## YOLOv4 모델 훈련
+## YOLOv4
+### YOLOv4 훈련
+- 훈련 파라미터는 YOLOv4/core/config.py에서 수정
+- 데이터는 COCO dataset 기준으로 되어 있으므로 다른 데이터에 적용하기 위해서는 YOLOv4/data/dataset/val2017.txt 파일과 같이 수정 필요
+- val2017.txt의 형태 : (이미지경로 x1,y1,x2,y2,class_label ...), class 정보는 YOLOv4/data/classes/ 경로에 위치(config.py에서 수정 필요)
+```
+python train.py
+```
 
+
+### YOLOv4 예측
 
 ## 파일 설명
 #### 1) preprocessing.ipynb \& preprocessing_Ensemble.ipynb
