@@ -3,7 +3,7 @@
 - 탐지된 객체 정보를 통해 Deepsort를 사용하여 원하는 객체의 정지 상태나 움직임을 식별
 - 식별된 움직임 정보를 통해 움직임이 없는 상태를 제거하여 저장 용량 축소
 - ADMM 기반의 Weight Pruning 기법을 사용하여 객체 탐지 모델 경량화
-<p align="center"><img src="./Tracker/img/small_demo_not_reduction_origin2.gif"></p>
+<p align="center"><img src="./Tracker/img/small_restarea_reduction_prune640.gif"></p>
 <br/>
 <p align="center"><img src="./Tracker/img/Workflow.PNG"></p>
 
@@ -103,13 +103,15 @@ python object_tracker.py --video ./data/video/cars.mp4 --output ./outputs/demo1.
 ### 기존 YOLOv4 weights 사용하여 추적(60초)
 <p align="center"><img src="./Tracker/img/small_demo_not_reduction_origin2.gif"></p>
 ### Weight Pruning(제거 비율: 20%) weights 사용하여 추적(60초)
-<p align="center"><img src="./Tracker/img/small_demo_not_reduction_origin2.gif"></p>
+<p align="center"><img src="./Tracker/img/small_demo_not_reduction_prune2.gif"></p>
 ### 용량 축소 적용(45초)
-<p align="center"><img src="./Tracker/img/small_demo_not_reduction_origin2.gif"></p>
+<p align="center"><img src="./Tracker/img/small_demo_reduction_prune2.gif"></p>
 
+<br/>
 
 ## 참조
 
+<br/>
 
 ## 기여자
 
