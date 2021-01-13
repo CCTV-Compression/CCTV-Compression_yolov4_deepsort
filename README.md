@@ -40,7 +40,7 @@ conda activate yolov4-gpu
 ```
 
 ### 학습된 YOLOv4 weights 가져오기(COCO로 학습)
-- https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT 에서 다운로드한 파일을 ./YOLOv4/data/ 경로에 추가
+- [yolov4.weights](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT)에서 다운로드한 파일을 ./YOLOv4/data/ 경로에 추가
 - 직접 학습시키고자 할 경우 'YOLOv4 훈련' 파트부터 실행
 
 <br/>
@@ -117,6 +117,16 @@ python object_tracker.py --video ./data/video/cars.mp4 --output ./outputs/demo1.
 <br/>
 
 ## 참조
+```
+Zhang, T., Ye, S., Zhang, K., Tang, J., Wen, W., Fardad, M., & Wang, Y. (2018). A systematic dnn weight pruning framework using alternating direction method of multipliers. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 184-199).
+
+Bochkovskiy, A., Wang, C. Y., & Liao, H. Y. M. (2020). YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv preprint arXiv:2004.10934.
+
+Wojke, N., Bewley, A., & Paulus, D. (2017, September). Simple online and realtime tracking with a deep association metric. In 2017 IEEE international conference on image processing (ICIP) (pp. 3645-3649). IEEE.
+```
+* [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
+* [yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort)
+* [admm-pruning](https://github.com/KaiqiZhang/admm-pruning)
 
 <br/>
 
