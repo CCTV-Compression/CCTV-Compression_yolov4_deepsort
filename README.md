@@ -40,6 +40,8 @@ conda activate yolov4-gpu
 - https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT 에서 다운로드한 파일을 YOLOv4/data/ 경로에 추가
 - 직접 학습시키고자 할 경우 'YOLOv4 훈련' 파트부터 실행
 
+<br/>
+
 ## YOLOv4
 ### YOLOv4 훈련
 - 훈련 파라미터는 YOLOv4/core/config.py에서 수정
@@ -48,8 +50,6 @@ conda activate yolov4-gpu
 ```
 python train.py
 ```
-
-<br/>
 
 ### YOLOv4 예측
 #### 1) 학습된 YOLOv4 weights 사용하여 예측
