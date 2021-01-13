@@ -124,13 +124,13 @@ Bochkovskiy, A., Wang, C. Y., & Liao, H. Y. M. (2020). YOLOv4: Optimal Speed and
 
 Wojke, N., Bewley, A., & Paulus, D. (2017, September). Simple online and realtime tracking with a deep association metric. In 2017 IEEE international conference on image processing (ICIP) (pp. 3645-3649). IEEE.
 ```
-* [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
-* [yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort)
 * [admm-pruning](https://github.com/KaiqiZhang/admm-pruning)
+* [yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort)
+* [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
 
 <br/>
 
 ## 기여자
 
-* [양동욱](dongwook412@naver.com)
-* [황보성훈](thehb01@gmail.com)
+* 양동욱(dongwook412@naver.com)
+* 황보성훈(thehb01@gmail.com)
