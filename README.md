@@ -6,7 +6,7 @@
 <p align="center"><img src="./Tracker/img/small_restarea_reduction_prune640.gif"></p>
 <br/>
 
-### 
+### Workflow
 <p align="center"><img src="./Tracker/img/Workflow.PNG"></p>
 
 <br/>
